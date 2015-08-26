@@ -10,6 +10,8 @@ http.createServer(app).listen(8888, function(){
     console.log('Express server listening on port ' + 8888);
 });
 
+
+
 app.get('/service2/one/:text', function(req, rsp){
     "use strict";
     var r = {};
