@@ -6,8 +6,8 @@ var express = require('express')
     ,_     = require('underscore');
 var app = express();
 
-http.createServer(app).listen(8888, function(){
-    console.log('Express server listening on port ' + 8888);
+http.createServer(app).listen(8080, function(){
+    console.log('Express server listening on port ' + 8080);
 });
 
 app.get('/', function (req, res) {
