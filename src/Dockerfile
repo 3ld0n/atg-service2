@@ -13,4 +13,4 @@ COPY . /src
 RUN cd /src; npm install -g
 
 EXPOSE 8888
-CMD ["node", "service2.js"]
+CMD node .
