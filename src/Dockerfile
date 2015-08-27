@@ -12,5 +12,5 @@ COPY . /src
 # Install app dependencies
 RUN cd /src; npm install -g
 
-EXPOSE 5000
+EXPOSE 8888
 CMD ["node", "service2.js"]
