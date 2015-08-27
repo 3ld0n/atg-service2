@@ -10,7 +10,7 @@ RUN yum install -y npm
 COPY . /src
 
 # Install app dependencies
-RUN cd /src; npm install -g
+RUN cd /src; npm install
 
 EXPOSE 8888
-CMD node .
+CMD ["node", "/src/service2.js"]
